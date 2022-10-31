@@ -1,0 +1,19 @@
+
+#selectCountrie{
+    font-size: 1.5rem;
+    width: 20rem;
+    display:block;
+}
+#Tv{
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 25em;
+    overflow-y:scroll;
+    display:block;
+}
+.Table{
+    float: left;
+}
+#Tv button{
+    font-size: 1.5rem;
+}

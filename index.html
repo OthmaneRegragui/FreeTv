@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>FreeTv</title>
+</head>
+<body>
+    <select id="selectCountrie">
+        <option value=""></option>
+    </select>
+    
+
+
+    <div class="Table"><table id="Tv" border="2px"></table></div>
+    <video id="Vid" controls width="640" height="360"></video>
+
+
+    <script src="hls.min.js" type="application/javascript"></script>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="index.js"></script>
+    <script>getCountries()</script>
+</body>
+</html>
